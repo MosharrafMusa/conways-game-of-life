@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  margin: 5%;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  margin-right: 20px;
+}
+
+.btn {
+  margin: 10px 5px;
+}
+
+.g-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
