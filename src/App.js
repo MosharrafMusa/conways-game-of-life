@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Grid from "./components/Grid";
+import About from "./components/About";
 
 const App = () => {
   const [size, setSize] = useState({ size: "medium", x: 25, y: 25 });
@@ -47,6 +48,7 @@ const App = () => {
       </div>
       <div className="content">
         <Grid rows={size.x} cols={size.y} speed={value.speed} />
+        <About />
       </div>
     </div>
   );

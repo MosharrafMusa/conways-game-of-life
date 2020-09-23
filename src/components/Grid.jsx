@@ -71,8 +71,8 @@ const Grid = ({ rows, cols, speed }) => {
               style={{
                 width: 20,
                 height: 20,
-                backgroundColor: grid[i][k] ? "white" : "black",
-                border: "solid 1px black",
+                backgroundColor: grid[i][k] ? "black" : "white",
+                border: "solid 1px grey",
               }}
             />
           ))
